@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   
+   <title>NameWebPage</title>
+
+   <style>
+      /* My class name */
+      .DansingScript { font-family: 'Dancing Script', cursive !important; }
+      #Bar div img {
+         width: calc(150px + 5vw);
+         transform: translateY(10%) rotate(-20deg);
+      }
+
+      /* Reset Bootstrap class names */
+      .bg-body { background-color: #EFEAE6 !important; }
+      .bg-danger { background-color: #ee6053 !important;}
+      .bg-warning { background-color: #987F61 !important; }
+      .btn-warning { background-color: #ee6053 !important; }
+      .btn-warning:hover { background-color: #ef4031 !important; }
+
+      @media (min-width: 1199.98px) {
+         img#CoverImg {
+            max-width: 100%;
+            height: auto;
+         }
+      }
+   </style>
+
+</head>
+<body class="bg-body">
+
+   <header>
+      <nav id="NavBar" class="navbar fixed-top navbar-dark bg-transparent">
+         <div class="container">
+         
+            <a class="navbar-brand" href="#">
+               <span class="DansingScript h1">
+                  NameWebPage
+               </span>
+            </a>
+            
+            <ul class="navbar-nav flex-row fs-4">
+               <li class="nav-item px-2">
+                  <a class="nav-link active" href="#">
+                     Home
+                  </a>
+               </li>
+               <li class="nav-item px-2">
+                  <a class="nav-link" href="#">
+                     About
+                  </a>
+               </li>
+               <li class="nav-item px-2">
+                  <a class="nav-link" href="#">
+                     Services
+                  </a>
+               </li>
+               <li class="nav-item px-2">
+                  <a class="nav-link" href="#">
+                     Contact
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+
+      <div class="vh-100 overflow-hidden text-white">
+         <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="fs-5 text-uppercase text-center">
+               Jewelry & Accessories
+            </div>
+            <h1 class="h2 display-5 fw-normal text-center text-nowrap py-2">
+               Check Out My <span class="DansingScript h1 display-4 text-wrap">
+                  NameWebPage
+               </span>
+            </h1>
+            <p class="fs-5 text-center pt-2">
+               "Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+               Molestiae quasi tempore quae, deserunt fugit nobis tenetur<br> 
+               sed, deserunt fugit nobis", ESLOGAN
+            </p>
+         </div>
+         <img src="img/workspace.jpg" id="CoverImg" alt="Img:Workspace">
+      </div>
+   </header>
+
+   <main>
+   
+      <div class="container py-5">
+
+         <h2 class="text-center mb-5">
+            The most recent
+         </h2>
+   
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            
+            <div class="col mb-3">
+               <div class="card h-100">
+                  <img src="img/anillos.jpg" class="card-img-top" alt="Img:Jewelry-1">
+                  <div class="card-body">
+                     <h3 class="card-title h5">Rings</h3>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">
+                        Last updated 3 mins ago
+                     </small>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col mb-3">
+               <div class="card h-100">
+                  <img src="img/necklace.jpg" class="card-img-top" alt="Img:Jewelry-2">
+                  <div class="card-body">
+                     <h3 class="card-title h5">Necklace</h3>
+                     <p class="card-text">
+                        This card has supporting text below as a natural lead-in to additional content.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">
+                        Last updated 1 mins ago
+                     </small>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col mb-3">
+               <div class="card h-100">
+                  <img src="img/bracelets.jpg" class="card-img-top" alt="Img:Jewelry-2">
+                  <div class="card-body">
+                     <h3 class="card-title h5">Bracelets</h3>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">
+                        Last updated 4 mins ago
+                     </small>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="col mb-3">
+               <div class="card h-100">
+                  <img src="img/earrings.jpg" class="card-img-top" alt="Img:Jewelry-2">
+                  <div class="card-body">
+                     <h3 class="card-title h5">Earrings</h3>
+                     <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                     </p>
+                  </div>
+                  <div class="card-footer">
+                     <small class="text-muted">
+                        Last updated 2 mins ago
+                     </small>
+                  </div>
+               </div>
+            </div>
+         
+         </div>
+      </div>
+   
+      <div id="Bar" class="bg-warning text-white py-5">
+         <div class="container d-flex flex-column align-items-center flex-sm-row gap-5">
+            <img src="img/heart.jpg" class="position-relative border border-3 border-dark" alt="Img:Jewelry-5">
+            <div class="px-5">
+               <h3>Promotion product</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore eveniet, a consequuntur accusamus praesentium optio dignissimos, quidem recusandae, non obcaecati adipisci quasi provident rerum maxime illum illo natus quas tempora.</p>
+               <button type="button" class="btn btn-warning border-0 rounded-0">
+                  Read more
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <div class="container py-5">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+            <div class="card">
+               <img src="img/anillos.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">
+                     Card title
+                  </h5>
+                  <p class="card-text">
+                     This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                  </p>
+               </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+               <img src="img/necklace.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">
+                     Card title
+                  </h5>
+                  <p class="card-text">
+                     This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                  </p>
+               </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+               <img src="img/bracelets.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">
+                     Card title
+                  </h5>
+                  <p class="card-text">
+                     This is a longer card with supporting text below as a natural lead-in to additional content.
+                  </p>
+               </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+               <img src="img/earrings.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                  <h5 class="card-title">
+                     Card title
+                  </h5>
+                  <p class="card-text">
+                     This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                  </p>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container pb-5">
+         <div class="d-flex mx-md-5">
+            <div class="ratio ratio-16x9 mx-md-5">
+               <video width="560" height="315" controls>
+                  <source src="video/Test.mp4" type="video/mp4">
+                  <source src="video/Test.ogg" type="video/ogg">
+               Your browser does not support the video tag.
+               </video>
+            </div>
+         </div>
+      </div>
+   
+   </main>
+
+   <footer class="d-flex flex-column align-items-center p-3 bg-danger flex-sm-row align-items-sm-center justify-content-sm-between">
+      <span class="DansingScript text-dark fs-2 mx-2 mb-2 mb-sm-0">
+         NameWebPage
+      </span>
+   
+      <ul class="nav list-unstyled mt-sm-1 fs-1">
+         <li class="mx-2">
+            <a href="https://www.facebook.com" 
+               class="link-dark" target="_blank" title="Facebook">
+            <i class='bx bxl-facebook-circle'></i></a>
+         </li>
+         <li class="mx-2">
+            <a href="https://www.instagram.com" 
+               class="link-dark" target="_blank" title="Instagram">
+            <i class='bx bxl-instagram'></i></a>
+         </li>
+         <li class="mx-2">
+            <a href="https://www.twitter.com" 
+               class="link-dark" target="_blank" title="Twitter">
+            <i class='bx bxl-twitter'></i></a>
+         </li>
+         </ul>
+   </footer>
+
+   <script>
+      function scrollHeader(){
+         const header = document.getElementById('NavBar')
+         if (this.scrollY >= 60) {
+            header.classList.add('bg-dark')
+            header.classList.remove('bg-transparent')
+         } else {
+            header.classList.add('bg-transparent')
+            header.classList.remove('bg-dark')
+         }
+      }
+      window.addEventListener('scroll', scrollHeader)
+   </script>
+
+</body>
+</html>
